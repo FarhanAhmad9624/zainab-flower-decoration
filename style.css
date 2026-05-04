@@ -14,6 +14,7 @@ body {
 
 h1, h2 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 /* Navigation */
@@ -142,6 +143,36 @@ footer {
     padding: 20px;
     background: #333;
     color: #fff;
+}
+
+
+#flowers h2{
+    margin: 2rem auto;
+}
+
+#flower-lists{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+    padding-bottom: 2rem;
+}
+
+/* #flower-lists::-webkit-scrollbar{
+  width: 500px;
+} */
+
+#flower-lists li{
+    list-style: none;
+}
+
+#flower-lists li img{
+    width: 500px;
+    height: 755px;
+    object-fit: cover;
+}
+
+#flower-lists li h3{
+    margin-left: 0.5rem;
 }
 
 /* Responsive */

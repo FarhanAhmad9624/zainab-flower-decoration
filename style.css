@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+address{
+    background: red;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #333;

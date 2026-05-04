@@ -57,7 +57,7 @@ nav ul li a:hover {
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('./images/_.jpeg');
+    url('./images/hero.jpeg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -182,5 +182,12 @@ footer {
 
     .service-grid{
         grid-template-columns: repeat(auto-fit, minmax(95%, 59%));
+    }
+
+
+    #flower-lists li img {
+        width: 80vw;
+        height: 80vh;
+        object-fit: cover;
     }
 }
